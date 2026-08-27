@@ -1,7 +1,7 @@
 {
-  "name": "obsidian-liuyao-plugin",
+  "name": "liuyao-plugin",
   "version": "1.0.0",
-  "description": "Obsidian LiuYao AI Plugin",
+  "description": "LiuYao AI Plugin",
   "main": "main.js",
   "scripts": {
     "dev": "rollup -c -w",
