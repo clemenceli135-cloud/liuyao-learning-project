@@ -1,0 +1,53 @@
+.liuyao-modal-container {
+  padding: 10px;
+}
+
+.liuyao-section {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.liuyao-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.liuyao-row input[type="text"] {
+  flex: 1;
+}
+
+.liuyao-row input.short-input {
+  width: 70px;
+  flex: none;
+}
+
+.liuyao-radio-group {
+  display: flex;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.liuyao-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  cursor: pointer;
+}
+
+.liuyao-interactive-box {
+  margin-top: 15px;
+  padding: 15px;
+  border: 1px dashed var(--background-modifier-border);
+  border-radius: 6px;
+}
+
+.liuyao-yao-preview {
+  margin-top: 10px;
+  padding: 8px;
+  background: var(--background-secondary);
+  border-radius: 4px;
+  font-family: monospace;
+}
